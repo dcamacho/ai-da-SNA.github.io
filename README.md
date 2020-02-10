@@ -21,7 +21,7 @@ The aforementioned metrics will be briefly describe in the Section [The Four Dim
 
 The area of SNA research generates thousand of papers per year, hundred of different algorithms, tools, and frameworks, to tackle the challenges and open issues related to Online Social Networks (OSNs). Keeping track of all theses advances is difficult for both experts and new comers. To lower this burden, we propose four new ”SNA-Dimensions”. The concept is inspired by the popular V-models used in the Big Data area, and its goal is to measure the capacity (and maturity) of the different frameworks and tools available to perform SNA tasks. These dimensions are used to define a set of metrics (that we named *degrees*), that will allow any researcher to identify the technology readiness level, and the main challenges and trends in the area of SNA. The dimensions defined will be directly related to **Pattern & Knowledge discovery**, **Information Fusion & Integration**, **Scalability**, and **Visualization** research topics.
 
-### Pattern & Knowledge discovery
+### Dimension 1: Pattern & Knowledge discovery
 
 This is the most classic and studied characteristic in OSNs and is related to the *Value* dimension in the V-models. This first dimension will be used to define the capacity of knowledge discovery (mainly from a pattern mining perspective) of SNA technologies. This dimension tries to answer the question: *What can I learn?*, understood as the capacity to discover non-trivial knowledge from OSN. Its objective  is to evaluate, any type of technique, method, or tool, which is used to discover new knowledge in OSN. The main functionalities for discovering knowledge which can be embedded in SNA tools can be summarized in:
 
@@ -40,7 +40,7 @@ This is the most classic and studied characteristic in OSNs and is related to th
 
 where alpha, beta and gamma are equal to 1/3.
 
-### Scalability
+### Dimension 2: Scalability
 
 This dimension will be used to define, and quantify, the scalability capacity of a tool or technique (e.g., algorithm) used in an OSN and is related to the *Volume* dimension on the V-models. A highly scalable software would work correctly on a small dataset as well as working well on a very large dataset (say millions, or billions of nodes and edges), so it will try to answer the question *“What is the limit?"*. The following sets of measures are proposed to quantify the degree of volume (dVolumne (t)), or scalability, for a SNA tool:
 
@@ -52,7 +52,7 @@ This dimension will be used to define, and quantify, the scalability capacity of
 <p align="center"><img width="260" src="images/scalability_eq.png"></p>
 
 
-### Information Fusion & Integration
+### Dimension 3: Information Fusion & Integration
 
 This dimension tries to answer the question: *“What kind of data can I integrate?""*. This measure would be equivalent to the concept of *Variety* on the V-models. In the case of OSN, this dimension will measure different aspects regarding the data used to perform the SNA tasks. We have defined three different measurements that will be taken into account:
 
@@ -62,7 +62,7 @@ This dimension tries to answer the question: *“What kind of data can I integra
 
 <p align="center"><img width="250" src="images/variety_eq.png"></p>
 
-### Visualization
+### Dimension 4: Visualization
 
 The concept of visualization is used as a dimension to measure the capacity of the tools, frameworks, and methods to visually represent the information stored in the network, and is related to the homonymous dimension in the V-models. Hence, this dimension will be used to answer the research question *“What can I saw?"*. We have decided to remove any aspect not related to graphics from the visualization dimension which moves away from the approaches used in the literature. Two main characteristic are used to evaluate this dimensions:
 
